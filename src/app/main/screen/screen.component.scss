@@ -1,3 +1,4 @@
+
 fieldset {
   // display: flex;
   justify-content: center;
@@ -25,9 +26,10 @@ form input {
   border: none;
   padding: 13px;
   margin-left: -10px;
-
+  font-size:15px;
   opacity: .6;
   background-color: #dddddd;
+  color: #2e003e;
 }
 button{
   float:right;
@@ -38,10 +40,12 @@ button{
   border:none;
   border-radius: 4px;
   font-weight: 400;
+  opacity:.86;
   background-color: #2e003e
 }
 h1{
   margin-top:0;
+  margin-left: 8px;
   color: #2e003e;
 }
 
