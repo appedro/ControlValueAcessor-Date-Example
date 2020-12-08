@@ -1,3 +1,8 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 fieldset {
   // display: flex;
@@ -14,11 +19,22 @@ fieldset {
   -webkit-box-shadow: 2px 1px 22px 7px rgba(170, 170, 170, 0.66);
   box-shadow: 2px 1px 22px 7px rgba(170, 170, 170, 0.66);
 }
-form {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
+h1 {
+  margin-top: 0;
+  margin-left: 8px;
+  color: #2e003e;
 }
+
+label {
+  margin-right: 20px;
+  margin-left: 10px;
+  // display: inline-block;
+  color: #2e003e;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 form input {
   // display: inline-block;
   width: 10%;
@@ -26,34 +42,26 @@ form input {
   border: none;
   padding: 13px;
   margin-left: -10px;
-  font-size:15px;
-  opacity: .6;
+  font-size: 15px;
+  opacity: 0.6;
   background-color: #dddddd;
   color: #2e003e;
 }
-button{
-  float:right;
+
+button {
+  float: right;
   margin-right: 15px;
-  margin-top:20px;
+  margin-top: 20px;
   color: #ffff;
-  padding:7px 12px 7px 12px;
-  border:none;
+  padding: 7px 12px 7px 12px;
+  border: none;
   border-radius: 4px;
   font-weight: 400;
-  opacity:.86;
-  background-color: #2e003e
-}
-h1{
-  margin-top:0;
-  margin-left: 8px;
-  color: #2e003e;
+  opacity: 0.86;
+  background-color: #2e003e;
+  cursor: pointer;
 }
 
-label {
-  margin-right:20px;
-  margin-left:10px;
-  // display: inline-block;
-  color: #2e003e;
-  font-weight: 400;
-  font-size: 14px;
+button:hover {
+  background-color: #536878;
 }
